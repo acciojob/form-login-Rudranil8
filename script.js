@@ -1,5 +1,5 @@
 function getFormvalue() {
-	let form = document.querySelector("#myForm");
+	let form = document.querySelector("#form1");
     form.addEventListener('submit', function(event) {
         event.preventDefault();
         let firstName = document.querySelector("#firstName").value;
